@@ -1,0 +1,169 @@
+<svg width="760" height="560" viewBox="0 0 760 560" xmlns="http://www.w3.org/2000/svg">
+  <title>Kompakt-Transformator transparent</title>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef5f6"/>
+      <stop offset="0.45" stop-color="#b9c9ce"/>
+      <stop offset="1" stop-color="#72838a"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cfdde1"/>
+      <stop offset="1" stop-color="#87979e"/>
+    </linearGradient>
+    <linearGradient id="fin" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9f1f3"/>
+      <stop offset="0.5" stop-color="#b4c5cb"/>
+      <stop offset="1" stop-color="#6f8188"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="10" dy="16" stdDeviation="8" flood-color="#000" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)" stroke="#4e5d63" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Grundkörper hinten / rechte Seite -->
+    <path d="M500 125 L660 150 L700 190 L700 430 L650 475 L500 445 Z" fill="url(#side)" stroke-width="3"/>
+    <path d="M650 160 L690 195 L690 420 L650 455 Z" fill="#9aabb1" stroke-width="2"/>
+
+    <!-- rechte Seitenkühlrippen -->
+    <g fill="#aebec4" stroke-width="1.8">
+      <rect x="666" y="180" width="8" height="238" rx="1"/>
+      <rect x="678" y="187" width="8" height="222" rx="1"/>
+      <rect x="690" y="198" width="7" height="205" rx="1"/>
+      <line x1="652" y1="170" x2="652" y2="452" stroke="#5f6f76" stroke-width="3"/>
+      <line x1="641" y1="165" x2="641" y2="450" stroke="#5f6f76" stroke-width="3"/>
+      <line x1="630" y1="162" x2="630" y2="447" stroke="#5f6f76" stroke-width="3"/>
+      <line x1="619" y1="160" x2="619" y2="444" stroke="#5f6f76" stroke-width="3"/>
+    </g>
+
+    <!-- Front-Kühlkörper als Rippenblock -->
+    <path d="M95 135 L500 125 L500 445 L105 474 L68 438 L68 170 Z" fill="url(#fin)" stroke-width="3"/>
+    <path d="M95 135 L500 125 L535 155 L123 166 Z" fill="#dce8eb" stroke-width="2.5"/>
+
+    <!-- Front-Rippen -->
+    <g stroke="#52636a" stroke-width="3" fill="none">
+      <path d="M105 170 V442 L123 456"/>
+      <path d="M128 168 V455"/>
+      <path d="M151 166 V456"/>
+      <path d="M174 165 V455"/>
+      <path d="M197 164 V454"/>
+      <path d="M220 162 V452"/>
+      <path d="M243 160 V451"/>
+      <path d="M266 158 V449"/>
+      <path d="M289 156 V447"/>
+      <path d="M312 154 V445"/>
+      <path d="M335 152 V443"/>
+      <path d="M358 150 V441"/>
+      <path d="M381 148 V439"/>
+      <path d="M404 146 V437"/>
+      <path d="M427 144 V435"/>
+      <path d="M450 142 V433"/>
+      <path d="M473 140 V431"/>
+    </g>
+    <g fill="#dbe7ea" stroke="#5c6c72" stroke-width="1.7">
+      <polygon points="114,167 125,166 125,455 114,444"/>
+      <polygon points="137,166 148,165 148,456 137,456"/>
+      <polygon points="160,165 171,164 171,455 160,456"/>
+      <polygon points="183,164 194,163 194,454 183,455"/>
+      <polygon points="206,162 217,161 217,453 206,454"/>
+      <polygon points="229,160 240,159 240,451 229,452"/>
+      <polygon points="252,158 263,157 263,449 252,450"/>
+      <polygon points="275,156 286,155 286,447 275,448"/>
+      <polygon points="298,154 309,153 309,445 298,446"/>
+      <polygon points="321,152 332,151 332,443 321,444"/>
+      <polygon points="344,150 355,149 355,441 344,442"/>
+      <polygon points="367,148 378,147 378,439 367,440"/>
+      <polygon points="390,146 401,145 401,437 390,438"/>
+      <polygon points="413,144 424,143 424,435 413,436"/>
+      <polygon points="436,142 447,141 447,433 436,434"/>
+      <polygon points="459,140 470,139 470,431 459,432"/>
+    </g>
+
+    <!-- Typenschild -->
+    <rect x="240" y="210" width="95" height="60" rx="3" fill="#cfd9dd" stroke="#637279" stroke-width="2"/>
+    <g stroke="#7e8b90" stroke-width="1">
+      <line x1="252" y1="225" x2="323" y2="225"/>
+      <line x1="252" y1="237" x2="323" y2="237"/>
+      <line x1="252" y1="249" x2="323" y2="249"/>
+      <line x1="252" y1="261" x2="323" y2="261"/>
+      <line x1="268" y1="218" x2="268" y2="265"/>
+      <line x1="294" y1="218" x2="294" y2="265"/>
+    </g>
+
+    <!-- obere Deckplatte -->
+    <path d="M105 105 L520 92 L668 118 L500 150 L90 160 Z" fill="#dbe6e9" stroke-width="3"/>
+    <path d="M90 160 L500 150 L668 118 L676 136 L510 170 L105 180 Z" fill="#a9bbc1" stroke-width="2"/>
+
+    <!-- Schrauben Deckplatte -->
+    <g fill="#87969d" stroke="#4e5d63" stroke-width="1.4">
+      <circle cx="126" cy="144" r="4"/><circle cx="166" cy="142" r="4"/><circle cx="206" cy="140" r="4"/>
+      <circle cx="246" cy="137" r="4"/><circle cx="286" cy="135" r="4"/><circle cx="326" cy="132" r="4"/>
+      <circle cx="366" cy="130" r="4"/><circle cx="406" cy="127" r="4"/><circle cx="446" cy="125" r="4"/>
+      <circle cx="486" cy="122" r="4"/><circle cx="544" cy="122" r="4"/><circle cx="602" cy="120" r="4"/>
+    </g>
+
+    <!-- Hochspannungs-Isolatoren -->
+    <g stroke="#394348" stroke-width="2">
+      <g transform="translate(335 30)">
+        <line x1="0" y1="0" x2="0" y2="48" stroke="#56666d" stroke-width="3"/>
+        <circle cx="0" cy="55" r="8" fill="#c9d4d8"/>
+        <g fill="#2a2424">
+          <ellipse cx="0" cy="73" rx="22" ry="7"/>
+          <ellipse cx="0" cy="91" rx="25" ry="8"/>
+          <ellipse cx="0" cy="109" rx="23" ry="7"/>
+          <ellipse cx="0" cy="126" rx="18" ry="6"/>
+        </g>
+        <rect x="-17" y="130" width="34" height="22" rx="4" fill="#c7d2d6"/>
+      </g>
+      <g transform="translate(430 18)">
+        <line x1="0" y1="0" x2="0" y2="58" stroke="#56666d" stroke-width="3"/>
+        <circle cx="0" cy="64" r="8" fill="#c9d4d8"/>
+        <g fill="#2a2424">
+          <ellipse cx="0" cy="83" rx="23" ry="7"/>
+          <ellipse cx="0" cy="103" rx="27" ry="8"/>
+          <ellipse cx="0" cy="123" rx="25" ry="8"/>
+          <ellipse cx="0" cy="142" rx="19" ry="6"/>
+        </g>
+        <rect x="-18" y="146" width="36" height="24" rx="4" fill="#c7d2d6"/>
+      </g>
+      <g transform="translate(535 26)">
+        <line x1="0" y1="0" x2="0" y2="52" stroke="#56666d" stroke-width="3"/>
+        <circle cx="0" cy="59" r="8" fill="#c9d4d8"/>
+        <g fill="#2a2424">
+          <ellipse cx="0" cy="78" rx="22" ry="7"/>
+          <ellipse cx="0" cy="96" rx="26" ry="8"/>
+          <ellipse cx="0" cy="115" rx="24" ry="7"/>
+          <ellipse cx="0" cy="133" rx="18" ry="6"/>
+        </g>
+        <rect x="-17" y="137" width="34" height="23" rx="4" fill="#c7d2d6"/>
+      </g>
+    </g>
+
+    <!-- kleiner linker Anschluss / Rohr -->
+    <g stroke-width="2.5">
+      <rect x="124" y="10" width="23" height="102" rx="8" fill="#d6e4e7"/>
+      <rect x="128" y="0" width="15" height="22" rx="4" fill="#415058"/>
+      <line x1="135" y1="22" x2="135" y2="105" stroke="#6f8087"/>
+    </g>
+
+    <!-- kleine Anschlüsse auf dem Deckel -->
+    <g fill="#262222" stroke="#4b555a" stroke-width="1.5">
+      <ellipse cx="220" cy="146" rx="18" ry="6"/>
+      <ellipse cx="265" cy="143" rx="18" ry="6"/>
+      <ellipse cx="590" cy="132" rx="16" ry="6"/>
+      <ellipse cx="625" cy="129" rx="16" ry="6"/>
+    </g>
+
+    <!-- Füße -->
+    <g fill="#aebdc3" stroke="#4f5d63" stroke-width="3">
+      <path d="M160 466 L225 462 L199 506 L130 510 Z"/>
+      <path d="M405 448 L495 442 L465 520 L374 525 Z"/>
+      <path d="M560 448 L650 465 L620 516 L532 498 Z"/>
+    </g>
+
+    <!-- harte Kanten und Schattenlinien -->
+    <path d="M500 150 V445" stroke="#3e4b50" stroke-width="4" opacity="0.55"/>
+    <path d="M95 135 L90 160 L68 170" fill="none" stroke="#6e7d83" stroke-width="3"/>
+    <path d="M105 474 L500 445 L650 475" fill="none" stroke="#3e4b50" stroke-width="3" opacity="0.6"/>
+  </g>
+</svg>
